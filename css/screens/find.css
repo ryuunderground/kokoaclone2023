@@ -1,0 +1,123 @@
+.recommended-friends {
+  padding: 2rem;
+  border-bottom: var(--main-border);
+  color: var(--light-gray);
+  position: relative;
+}
+.recommended-friends__title {
+  font-size: 1rem;
+}
+.recommended-friends span {
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  margin: 5rem 0rem 7rem 0rem;
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--light-gray);
+  margin: 0.5rem 0rem;
+}
+.open-chat__header span {
+  opacity: 0.5;
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--main-border);
+}
+.open-post__column {
+  margin: 0.7rem 0;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.open-post__title,
+.open-post__hashtags {
+  text-transform: uppercase;
+}
+.open-post__hashtags,
+.open-post__member-count {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0.2rem 0rem;
+}
+.open-post__members .divider {
+  width: 0.1rem;
+  height: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0rem 0.4rem;
+}
+.open-post__member-status {
+  color: #ffb0e0;
+}
+.open-post__member-count {
+  font-size: 0.8rem;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+.open-post__members img {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+}
+.open-post__photo {
+  position: relative;
+  margin-bottom: 0.8rem 0;
+}
+.open-post__heart-count {
+  color: white;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.9rem;
+  padding: 0.4rem;
+  align-items: center;
+  position: absolute;
+  bottom: 0.4rem;
+  right: 0.4rem;
+  font-size: 0.5rem;
+  z-index: 3;
+}
+@keyframes heartbeatAnimation {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: palevioletred;
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.heart-background_column {
+  position: relative;
+}
+.heartbackground {
+  position: absolute;
+  bottom: 1.1rem;
+  right: 2.13rem;
+  color: #ffb0e0;
+  z-index: 2;
+}
+.open-post__heart-count:hover i:first-child {
+  will-change: transform;
+  animation: heartbeatAnimation 1s linear infinite;
+}
+.open-post__heart-count span {
+  margin-left: 0.2rem;
+}
+.open-post__photo img {
+  display: flex;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
