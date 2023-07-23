@@ -1,0 +1,84 @@
+.screen__header {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+  top: 2.8rem;
+  padding: var(--horizontal-space);
+}
+
+.screen__header__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.screen__header__icons {
+  align-items: center;
+}
+.screen__header__icons span {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: var(--horizontal-space);
+}
+.empty {
+  width: 4rem;
+  height: 2rem;
+  color: white;
+  opacity: 0;
+  margin: none;
+  padding: none;
+}
+.mspan {
+  position: absolute;
+  right: 5.1rem;
+  top: 2.1rem;
+}
+.morem {
+  top: 1.6rem;
+}
+@keyframes rotateheaderAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+.screen__header__icons .fa-gear:hover {
+  animation: rotateheaderAnimation 2s linear infinite;
+}
+@keyframes magmagglassAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+.fa-magnifying-glass:hover {
+  animation: magmagglassAnimation 2s ease-in-out infinite;
+}
+@keyframes musicswingAnimation {
+  0% {
+    transform: none;
+  }
+  30% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: none;
+  }
+  80% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.mspan a svg:hover {
+  animation: musicswingAnimation 1.5s ease-in-out infinite;
+}
