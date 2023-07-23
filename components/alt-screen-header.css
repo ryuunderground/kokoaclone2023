@@ -1,0 +1,29 @@
+.alt-header {
+  padding: var(--horizontal-space);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.alt-header__column {
+  width: 33%;
+}
+.alt-header__column svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.alt-header__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
