@@ -1,0 +1,100 @@
+.user-component {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.user-component__text {
+  margin-left: 0.5rem;
+}
+.user-component :first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+.user-component__avatar--sm {
+  width: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.8rem;
+}
+
+.user-component__avatar--xl {
+  width: 2.5rem;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+.user-component__subtitle {
+  margin-top: 0.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.friends-screen {
+  padding: 0rem var(--horizontal-space);
+}
+.friends-screen__channel--header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  opacity: 0.5;
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+.friends-screen__channel {
+  border-top: var(--main-border);
+}
+.user-component__alarm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--gray);
+  opacity: 0.5;
+  position: relative;
+}
+#ii {
+  position: absolute;
+  left: 0.8rem;
+  top: 1.3rem;
+}
+#chevron_num {
+  margin-right: 0.8rem;
+}
+.user-component__time {
+  opacity: 0.5;
+  margin: 0.5rem 0rem;
+}
+.message-bar {
+  background-color: white;
+  width: 1rem;
+  height: 0.2rem;
+  display: block;
+  position: absolute;
+}
+.formoremes {
+  position: relative;
+  margin-top: 1rem;
+}
+.upper {
+  top: -0.1rem;
+  left: 0.5rem;
+}
+.belower {
+  top: -0.5rem;
+  left: 0.5rem;
+}
+.fa-circle-exclamation {
+  color: tomato;
+  position: absolute;
+  left: 12rem;
+  top: 2.4rem;
+}
+.user-component__column-more {
+  position: relative;
+  width: 100%;
+}
