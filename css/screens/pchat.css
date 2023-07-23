@@ -152,7 +152,7 @@ button svg {
   opacity: 0;
 }
 .reply input:focus {
-  width: 97vw;
+  width: 95vw;
   transform: translateX(-4%) translateY(-30rem);
 }
 .reply:focus-within {
