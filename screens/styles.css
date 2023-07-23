@@ -1,0 +1,33 @@
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import "badge.css";
+/*components*/
+@import "components/login.css";
+@import "components/nav-bar.css";
+@import "components/header.css";
+@import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+@import "components/portrait-only.css";
+/*screens*/
+@import "screens/statusbar.css";
+@import "screens/welcome.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/pchat.css";
+
+body {
+  font-family: "Rubik", sans-serif;
+  height: 1000vh;
+}
+.main-screen {
+  padding: var(--horizontal-space);
+}
+.setting-main-screen {
+  padding-top: 0rem;
+}
