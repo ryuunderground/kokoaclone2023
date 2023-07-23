@@ -1,0 +1,31 @@
+.nav__notification {
+  background-color: tomato;
+  display: flex;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.nav__notification__time {
+  margin-left: 1.2rem;
+}
+.dot__not {
+  background-color: tomato;
+  color: #f9f9fa;
+  border-radius: 50%;
+  display: block;
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+}
+.dot__find-gear {
+  top: 1.2rem;
+  right: 1.9em;
+}
+.dot__more-gear {
+  top: 1.8rem;
+  right: 1.9rem;
+}
