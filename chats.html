@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="screen__header">
+      <h1 class="screen__header__title">Chats</h1>
+      <span class="mspan">
+        <a href="#">
+          <svg
+            xmlns="httpspanww.w3.org/2000/svg"
+            fill="none"
+            width="1.2rem"
+            height="1.5rem"
+            viewBox="0 0 20 20"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z"
+            />
+          </svg>
+        </a>
+      </span>
+      <div class="screen__header__icons">
+        <span>
+          <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+        </span>
+        <span>
+          <a href="#"><i class="fa-regular fa-comment-dots fa-lg"></i></a
+        ></span>
+        <span><div class="empty"></div></span>
+        <span
+          ><a href="setting.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="personal-chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/g.jpg" class="user-component__avatar--xl" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">KakaoTalk</h4>
+              <h6 class="user-component__subtitle">
+                Please check My Kakao Account Info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column__time">
+            <span class="user-component__time">21:22</span>
+            <span class="nav__notification nav__notification__time">1</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__btn">
+          <a class="nav__a" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__a" href="chats.html"
+            ><span class="nav__notification nav__notification__chat">1</span
+            ><i class="fa-solid fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__a" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__a" href="more.html"
+            ><span class="nav__dot dot__not">.</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="2 -2.5 22 22"
+          width="1.3rem"
+          hieght="1.3rem"
+          preserveAspectRatio="xMidYMid meet"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"
+          />
+        </svg>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 25 25"
+          width="2rem"
+          height="2rem"
+          preserveAspectRatio="xMidYMid meet"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
+          />
+        </svg>
+        <i class="fa-solid fa-rotate fa-2xl"></i>
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-2xl"></i>
+        <i class="fa-solid fa-bolt fa-2xl"></i>
+      </div>
+    </div>
+    <div id="no-mobile">
+      <span>Your screen is too big.</span>
+    </div>
+    <div id="portrait-only">
+      <span>Plz turn ur phone.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/86d9e65449.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
