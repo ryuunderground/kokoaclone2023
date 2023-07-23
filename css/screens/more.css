@@ -1,0 +1,36 @@
+.more__icon-row {
+  border-bottom: none;
+  justify-content: start;
+}
+.more-screen .icon-row {
+  margin-top: 2rem;
+}
+.more-suggestions {
+  margin: 1rem;
+  padding-top: 1rem;
+  display: block;
+}
+.icon-row__icon-suggestions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem 2rem;
+}
+.icon-row__icon-suggestions svg {
+  width: 2rem;
+  height: 2rem;
+}
+.icon-row__icon-suggestions span {
+  padding: 1rem;
+}
+.dot_more {
+  right: 2rem;
+}
+.more__icon-row {
+  display: flex;
+  justify-content: start;
+}
+.more__icon-row:first-child {
+  border-bottom: var(--main-border);
+}
