@@ -1,0 +1,24 @@
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  align-items: center;
+}
+.settings-setting svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.settings-setting__column {
+  display: flex;
+  align-items: center;
+}
+.settings-setting__column:last-child {
+  opacity: 0.7;
+}
+.settings-setting:last-child {
+  padding-bottom: 2.5rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
